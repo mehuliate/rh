@@ -11,6 +11,7 @@
                     <form method="POST" action="{{ url('/dokumen-rh-store') }}">
                     {{ csrf_field() }}
                     <div class="col-md-6">
+                    <label for="">nama</label><input type="text">
                         <hr>
                         <h4>PENGIRIM</h4>
                         <div class="form-group">

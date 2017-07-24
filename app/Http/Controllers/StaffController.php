@@ -94,7 +94,7 @@ class StaffController extends Controller
 
     public function formDokumenRh()
     {
-        return view('dokumen_rh.index');
+        return view('dokumen_rh.form_rh');
     }
 
     public function storeDokumenRH(Request $request)
